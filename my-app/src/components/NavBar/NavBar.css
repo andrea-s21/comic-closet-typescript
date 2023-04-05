@@ -1,0 +1,16 @@
+.nav {
+    display: flex;
+    position: absolute;
+    justify-content: flex-end;
+    z-index: 2;
+    width: 100%;
+    color: #f8f8f2;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.7);
+  }
+  
+  .nav-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 30px;
+  }

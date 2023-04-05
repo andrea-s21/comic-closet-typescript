@@ -1,0 +1,9 @@
+.dropdown-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.selectList {
+  width: 50%;
+}
+  

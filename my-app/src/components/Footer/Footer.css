@@ -1,0 +1,13 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #222222;
+    min-height: 200px;
+    color: #f8f8f2;
+  }
+  
+  .logo-footer {
+    width: 10%;
+  }

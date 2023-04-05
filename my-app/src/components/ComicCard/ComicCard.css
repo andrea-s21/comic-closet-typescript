@@ -1,0 +1,6 @@
+.comic-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 10%;
+}
