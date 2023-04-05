@@ -36,21 +36,15 @@ export default function Home() {
     // ]
 
     let cards: any;
-    let API_URL = process.env.REACT_APP_BASE_URL;
-
-      window.onload = async () => {
-        console.log("onload");
-        try {
-          let response = await fetchComics;
-          // let data = await response.json();
-          console.log(response);
-          return response;
-        } catch (err) {
-          console.error(err);
-          return;
-        }
-      };
-
+    window.onload = async ( args: any) => {
+      if (args === "") return;
+      try {
+        return await fetchComics();
+      } catch (err) {
+        return err;
+      }
+    };
+      console.log(data, "onload");
   
 
     const selectChange = async (event: any, args: any) => {
